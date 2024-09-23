@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: rgb(9, 9, 57);
   --foreground: #171717;
 }
 
@@ -13,7 +13,29 @@
     --foreground: #ededed;
   }
 }
+img{
+  width: 90%;
+  height: 500px;
+  margin: 20px 20px 20px 20px;
+  border: 2px solid #ededed;
+}
+#cards{
+  display:inline-table;
+  width: 30%;
+  padding-left: 30px;
 
+}
+#main-pic img{
+  width: 80%;
+  height: 600px;
+}
+#card{
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
 body {
   color: var(--foreground);
   background: var(--background);
