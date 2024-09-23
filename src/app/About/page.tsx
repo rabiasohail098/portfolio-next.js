@@ -5,8 +5,8 @@ import ProgressBar2 from '../components/progress2'
 const about = () => {
   return (
     <div>
-         <div className='flex w-[90%]'>
-            <div className='flex w-[55%]'>
+         <div className='flex w-[100%]'>
+            <div className='flex w-[50%]'>
             <Image src="/image/rab (4).jpg" className='mt-[50px] ml-[50px] rounded-3xl'
             alt=""
             width={350}
@@ -21,12 +21,12 @@ const about = () => {
       
          <div className='w-[35%] text-[50px] font-extrabold mt-[80px] justify-center text-white'>
             <div>
-                <h1 className='hover:text-red-600'>About Me</h1>
-                <p className='text-[25px] text-left font-thin'>With over 5 years of comprehensive experience in the field of data science & analytics, accompanied by a bachelors degree in engineering. Proficient in data analysis, statistical analysis, hypothesis testing, customer behaviour analysis, & machine learning. Demonstrated success in leading impactful projects and providing effective mentorship.</p>
+                <h1 className='hover:text-red-600 mb-[20px] '>About Me</h1>
+                <p className='text-[25px] text-left mt-[20px] font-thin'>With over 5 years of comprehensive experience in the field of data science & analytics, accompanied by a bachelors degree in engineering. Proficient in data analysis, statistical analysis, hypothesis testing, customer behaviour analysis, & machine learning. Demonstrated success in leading impactful projects and providing effective mentorship.</p>
             </div>
          </div>
          </div>
-         <div className='flex w-[90%'>
+         <div className='flex w-[90%]'>
             <div className='w-[50%]'>
          <h1 className=' text-[35px] w-[100%] text-white hover:text-yellow-300 ml-[30%] mt-[40px]'> Skills </h1>
          <h1 className=' text-[24px] w-[100%] text-white hover:text-red-600 ml-[20px] mt-[40px]'> SQL 95% </h1>
