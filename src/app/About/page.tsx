@@ -5,8 +5,10 @@ import ProgressBar2 from '../components/progress2'
 const about = () => {
   return (
     <div>
-         <div className='flex w-[100%]'>
-            <div className='flex w-[50%]'>
+         <div className=' flex w-[100%]'>
+            
+            <div className=' w-[60%]'>
+        <div className='flex w-[100%]'>
             <Image src="/image/rab (4).jpg" className='mt-[50px] ml-[50px] rounded-3xl'
             alt=""
             width={350}
@@ -17,13 +19,16 @@ const about = () => {
                 <h3 className='text-[25px] hover:text-yellow-300 mt-[20px]'>Experience: <span>5 years 3 Months</span></h3>
                 <h3 className='text-[25px] hover:text-yellow-300 mt-[20px]'>Address: <span>Karachi Pakistan</span></h3>
             </div>
+            </div>
          </div>
       
          <div className='w-[35%] text-[50px] font-extrabold mt-[80px] justify-center text-white'>
             <div>
+            
                 <h1 className='hover:text-red-600 mb-[20px] '>About Me</h1>
                 <p className='text-[25px] text-left mt-[20px] font-thin'>With over 5 years of comprehensive experience in the field of data science & analytics, accompanied by a bachelors degree in engineering. Proficient in data analysis, statistical analysis, hypothesis testing, customer behaviour analysis, & machine learning. Demonstrated success in leading impactful projects and providing effective mentorship.</p>
             </div>
+         
          </div>
          </div>
          <div className='flex w-[90%]'>

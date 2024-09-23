@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = ()  => {
   return (
-    <div className='inline-flex justify-between items-center h-[70px] bg-orange-400 w-[95%] mt-[20px] mb-[20px] align-middle ml-[30px] mr-[30px]'>
+    <div className='inline-flex justify-between items-center h-[70px] bg-orange-400 w-[98%] mt-[20px] mb-[20px] align-middle ml-[30px] mr-[30px]'>
         <div>
             <h1 className='text-[30px] hover:text-yellow-300 w-[150px] text-center m-auto font-semibold'>RSK Zai</h1>
         </div>
