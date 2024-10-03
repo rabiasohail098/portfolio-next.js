@@ -38,7 +38,7 @@ const About = () => {
 
         {/* Right side - About Me section */}
         <div className='lg:w-[35%] w-full text-[22px] lg:text-[50px] font-extrabold mt-[20px] lg:mt-[80px] text-center lg:text-left'>
-          <h1 className='hover:text-red-600 mb-[20px]'>About Me</h1>
+          <h1 className='hover:text-red-600 mb-[20px] text-white'>About Me</h1>
           <p className='text-[16px] lg:text-[25px] mt-[20px] font-thin text-white'>
             With over 5 years of comprehensive experience in the field of data science & analytics, accompanied by a bachelor’s degree in engineering...
           </p>
