@@ -72,12 +72,7 @@ const ContactForm: React.FC = () => {
           ></textarea>
 
           <button
-<<<<<<< HEAD
-            className="text-[30px] mb-[40px] pt-10px hover:text-red-600 pb-10px w-[98%] ml-[20px] mr-[20px] mt-[20px] border-[5px] max-w-full border-yellow-300"
-=======
-            className="text-[30px] pt-10px hover:text-red-600 pb-10px w-[98%] ml-[20px] mr-[20px] mt-[20px] border-[5px] max-w-full border-yellow-300"
->>>>>>> e9178b64e5741184a71ba90e83382f29d03d248c
-            type="submit"
+            className="text-[30px] pt-10px hover:text-red-600 pb-10px w-[98%] ml-[20px] mr-[20px] mt-[20px] border-[5px] max-w-full border-yellow-300"           type="submit"
           >
             Send Message
           </button>
